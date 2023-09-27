@@ -1,0 +1,19 @@
+@media (min-width: 1024px) {
+  .addTrackerForm {
+    width: 50%;
+  }
+}
+
+@media (max-width: 767px) {
+  .addTrackerForm {
+    width: auto;
+  }
+}
+.addTrackerForm .below__boxes {
+  width: 200px !important;
+}
+@media (max-width: 576px) {
+  .addTrackerForm .below__boxes {
+    width: auto !important;
+  }
+}
